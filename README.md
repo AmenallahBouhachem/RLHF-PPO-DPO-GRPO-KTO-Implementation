@@ -8,6 +8,7 @@ This repository contains educational, theoretical implementations of:
 - **Proximal Policy Optimization (PPO)**
 - **Direct Preference Optimization (DPO)**
 - **Generalized Reward Policy Optimization (GRPO)**
+- **Odds Ratio Preference Optimization (ORPO)**
 - **Kullback–Leibler-based Training Objective (KTO)**
 
 The project is intended as a showcase of my understanding of these algorithms, both theoretically and practically. I have recently learned their theory and am now implementing them to demonstrate my ability to apply them to use cases. The code is for educational purposes only.
@@ -16,7 +17,7 @@ The project is intended as a showcase of my understanding of these algorithms, b
 
 ## 🚀 Features
 
-- **RLHF, PPO, DPO, GRPO, KTO Implementations**: Educational, theoretical implementations of popular RL algorithms for language model alignment.
+- **RLHF, PPO, DPO, GRPO, ORPO, KTO Implementations**: Educational, theoretical implementations of popular RL algorithms for language model alignment.
 - **Sentiment Analysis Example**: Demonstrates use on the IMDB dataset.
 - **Hugging Face Integration**: Utilizes state-of-the-art libraries like `transformers` and `datasets`.
 - **Customizable Training**: Easily modify configurations for different datasets and models.
@@ -41,6 +42,9 @@ cd RLHF-PPO-DPO-GRPO-KTO-Implementation
 RLHF-PPO-DPO-GRPO-KTO-Implementation
 ├── RLHF_PPO_ON_IMDB.ipynb   # Main notebook for training and evaluation
 ├── DPO_Implementation.ipynb  # DPO implementation notebook
+├── GRPO-Implementation.ipynb # GRPO implementation notebook
+├── ORPO-IMPlmeNTATION.ipynb  # ORPO implementation notebook
+├── KTO-Implementation.ipynb  # KTO implementation notebook
 ├── loss_computation.py      # Custom loss computation logic
 ├── LICENSE                  # License information
 └── README.md                # Project documentation
@@ -81,4 +85,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 📚 Disclaimer
 
-This repository is for educational purposes only. The implementations are intended to demonstrate my understanding of RLHF, PPO, DPO, GRPO, and KTO, both in theory and in practice. The code is not intended for production use.
+This repository is for educational purposes only. The implementations are intended to demonstrate my understanding of RLHF, PPO, DPO, GRPO,ORPO and KTO, both in theory and in practice. The code is not intended for production use.
