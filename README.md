@@ -1,15 +1,23 @@
-# 🌟 RLHF-PPO Implementation 🌟
+# 🌟 RLHF-PPO-DPO-GRPO-KTO-Implementation 🌟
 
 ## 📖 Overview
 
-This repository contains a theoretical implementation of **Reinforcement Learning with Human Feedback (RLHF)** using **Proximal Policy Optimization (PPO)**. The project is applied to the IMDB dataset for sentiment analysis, showcasing the alignment of language models with human preferences.
+This repository contains educational, theoretical implementations of:
+
+- **Reinforcement Learning with Human Feedback (RLHF)**
+- **Proximal Policy Optimization (PPO)**
+- **Direct Preference Optimization (DPO)**
+- **Generalized Reward Policy Optimization (GRPO)**
+- **Kullback–Leibler-based Training Objective (KTO)**
+
+The project is intended as a showcase of my understanding of these algorithms, both theoretically and practically. I have recently learned their theory and am now implementing them to demonstrate my ability to apply them to use cases. The code is for educational purposes only.
 
 ---
 
 ## 🚀 Features
 
-- **RLHF with PPO**: Train language models with human feedback.
-- **Sentiment Analysis**: Fine-tuned on the IMDB dataset.
+- **RLHF, PPO, DPO, GRPO, KTO Implementations**: Educational, theoretical implementations of popular RL algorithms for language model alignment.
+- **Sentiment Analysis Example**: Demonstrates use on the IMDB dataset.
 - **Hugging Face Integration**: Utilizes state-of-the-art libraries like `transformers` and `datasets`.
 - **Customizable Training**: Easily modify configurations for different datasets and models.
 
@@ -21,8 +29,8 @@ To get started, clone the repository and install the required dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AmenallahBouhachem/RLHF-PPO-Implementation.git
-cd RLHF-PPO-Implementation
+git clone https://github.com/AmenallahBouhachem/RLHF-PPO-DPO-GRPO-KTO-Implementation.git
+cd RLHF-PPO-DPO-GRPO-KTO-Implementation
 ```
 
 ---
@@ -30,8 +38,9 @@ cd RLHF-PPO-Implementation
 ## 📂 Project Structure
 
 ```
-RLHF-PPO-Theoretical-Implementation
+RLHF-PPO-DPO-GRPO-KTO-Implementation
 ├── RLHF_PPO_ON_IMDB.ipynb   # Main notebook for training and evaluation
+├── DPO_Implementation.ipynb  # DPO implementation notebook
 ├── loss_computation.py      # Custom loss computation logic
 ├── LICENSE                  # License information
 └── README.md                # Project documentation
@@ -39,27 +48,14 @@ RLHF-PPO-Theoretical-Implementation
 
 ---
 
-## 📊 Results
+## 📊 Example Use Case: Sentiment Analysis
 
 ### Sentiment Analysis Examples
 
 - **Input**: "This movie was really bad!!"
-
   - **Sentiment**: Negative
 - **Input**: "This movie was really good!!"
-
   - **Sentiment**: Positive
-
----
-
-## 📈 Training Pipeline
-
-1. **Data Preparation**: Preprocess the IMDB dataset for training.
-2. **Model Initialization**: Load GPT-2 and reward models.
-3. **Training**: Use PPO to align the model with human feedback.
-4. **Evaluation**: Test the model on unseen data.
-
----
 
 ## 📦 Dependencies
 
@@ -80,3 +76,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 📚 Disclaimer
+
+This repository is for educational purposes only. The implementations are intended to demonstrate my understanding of RLHF, PPO, DPO, GRPO, and KTO, both in theory and in practice. The code is not intended for production use.
